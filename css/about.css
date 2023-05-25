@@ -1,0 +1,24 @@
+/* About section styles */
+.about {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+}
+
+.about .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about h2 {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 18px;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+

@@ -1,0 +1,92 @@
+.header {
+  background-color: #f8f9fa;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  height: 50px; /* Adjust the height as needed */
+}
+
+#cont {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h1 {
+  font-size: 24px;
+  margin: 0;
+  margin-left: 0px; /* Adjust the margin as needed */
+}
+.header nav {
+  position: fixed;
+  display: flex;
+  margin-left: auto; /* Move the navigation links to the right */
+  align-items: center;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+.header nav a {
+  color: #333;
+  align-items: center;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+  margin-left: 50px; /* Adjust the margin as needed */
+}
+
+.header nav a:hover {
+  transform: scale(1.05);
+    cursor: pointer;
+  color: #ff0000;
+}
+
+@media screen and (max-width: 768px) {
+  .header container {
+    padding: 0 20px;
+  }
+
+  .header h1 {
+    font-size: 100px;
+    margin-right: 10px;
+  }
+
+  .header nav a {
+    margin-left: 10px;
+  }
+}
+
+/* .header .profile img {
+  border-color: black;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  border-radius: 20%;
+  z-index: 0;
+} */
+
+.header nav a.download-button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.header nav a.download-button:hover {
+  background-color: #ff0000;
+  scale: 20px;
+}
+
+

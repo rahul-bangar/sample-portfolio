@@ -1,0 +1,106 @@
+/* Hero section styles */
+.hero {
+    padding-top: 50px;
+    /* background-image: url('images/bg.jpg'); */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Set the height to 100% of the viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f9fa;
+}
+
+.hero-content .profile img {
+    
+    border-color: black;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: 20%;
+    z-index: 0;
+    align-items: center;
+  }
+
+.hero-content {
+    display: flex;
+    /* align-items: center; */
+}
+
+.hero-content h1 {
+    font-size: 40px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+.hero-content h3 {
+    align-items: left;
+    font-size: 40px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    text-align: center;
+    font-size: 18px;
+    color: #777;
+    margin-bottom: 10px;
+    padding: auto;
+}
+
+
+  
+  .links {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    display: flex;
+  }
+  
+  .links li {
+    margin-right: 10px;
+  }
+  
+  .links a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 50%;
+    /* transition: background-color 0.3s ease; */
+  }
+  
+  .links a i {
+    color: #fff;
+  }
+  
+  .links .facebook i {
+    color: #3b5998;
+  }
+  
+  .links .linkedin i {
+    color: #007bb6;
+  }
+  
+  .links .twitter i {
+    color: #1da1f2;
+  }
+  
+  .links .instagram i {
+    color: #e4405f;
+  }
+  
+  .links .github {
+    background-color: #545151;
+    color: #a5a0a0;
+  }
+  
+  /* Add more styles for additional social media platforms */
+  .links a:hover {
+    background-color: #a5a0a0;
+  }
+  
