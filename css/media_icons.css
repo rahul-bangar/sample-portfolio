@@ -19,6 +19,7 @@
   list-style: none;
   padding: 0;
   display: flex;
+  justify-content: center; /* Add this property */
 }
 
 .social-links li {
@@ -26,7 +27,7 @@
 }
 
 .social-links a {
-  display: inline-flex;
+  display: flex; /* Add this property */
   align-items: center;
   justify-content: center;
   width: 50px;
@@ -36,6 +37,10 @@
   border-radius: 50%;
   /* transition: background-color 0.3s ease; */
 }
+
+/* Rest of the CSS remains the same */
+
+
 
 .social-links a i {
   color: #fff;

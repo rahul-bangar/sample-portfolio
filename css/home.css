@@ -50,28 +50,28 @@
 
 
   
-  .links {
-    list-style: none;
-    text-align: center;
-    padding: 0;
-    display: flex;
-  }
-  
-  .links li {
-    margin-right: 10px;
-  }
-  
-  .links a {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    font-size: 25px;
-    border-radius: 50%;
-    /* transition: background-color 0.3s ease; */
-  }
+.links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* Add this property */
+}
+
+.links li {
+  margin-right: 10px;
+}
+
+.links a {
+  display: flex; /* Add this property */
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-size: 25px;
+  border-radius: 50%;
+  /* transition: background-color 0.3s ease; */
+}
   
   .links a i {
     color: #fff;
