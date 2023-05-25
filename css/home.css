@@ -4,7 +4,6 @@
     /* background-image: url('images/bg.jpg'); */
     background-size: cover;
     background-position: center;
-    height: 100vh; /* Set the height to 100% of the viewport height */
     display: flex;
     align-items: center;
     justify-content: center;
