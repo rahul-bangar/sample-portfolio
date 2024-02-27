@@ -32,3 +32,6 @@
 .back-to-top i {
     color: rgb(0, 0, 0);
 }
+.back-to-top i:hover {
+    color: #007bff;
+}
